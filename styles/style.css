@@ -24,7 +24,7 @@ body{
    margin-right: 5%;
 }
 
-#cabecalho >.nav-cab> .logo > .pato{
+#cabecalho >.nav-cab> .logo >a> .pato{
     width: 100%;
     height: 20vh;
     border: 15px #343A40 double;
