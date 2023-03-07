@@ -9,16 +9,23 @@
 }
 .about-us>.box-contain{
     background-color: whitesmoke;
-    width: 50%;
+    width: 39%;
     height: 50vh;
     display: flex;
     margin-top: 5%;
+    border-radius: 50% 50px 50px 50px ;
 }
 .about-us>.box-contain>#texto{
     width: 40%;
     background-color: aquamarine;
+    border-radius: 50px 0px 0px 50px ;
+    text-align: center;
 }
 .about-us>.box-contain>#foto{
     width: 60%;
-    background-color: bisque;
+    border-radius: 0% 50px 50px 0px ;
+    background-image: url("/img/patojoia.png");
+    background-position: center;
+    background-size: contain;
+  background-repeat: no-repeat;
 }
