@@ -1,43 +1,6 @@
 @charset "utf-8";
 /*CSS Document*/
-*{
-    padding: 0px;
-    margin: 0px;
-}
 
-body{
-    background-color: #fff;
-}
-#cabecalho{
-    background-color: #343A40;
-    width: 100%;
-    height: 5vh;
-    display: flex;
-    justify-content: center;
-    position: fixed;
-}
-#cabecalho>.nav-cab{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    width: 70%;
-   margin-right: 5%;
-}
-
-#cabecalho >.nav-cab> .logo >a> .pato{
-    width: 100%;
-    height: 20vh;
-    border: 15px #343A40 double;
-    border-bottom-left-radius: 100%;
-    border-bottom-right-radius: 100%;
-    
-    padding-top: 149px;
-}
-#cabecalho >.nav-cab> p{
-    padding-left: 50px;
-    color: white;
-    font-size:x-large;
-}
 
 .main-section{
     display: flex;
@@ -69,25 +32,7 @@ body{
     width: 100%;
     border-radius: 30px;
 }
-footer{
-    background-color: #343A40;
-    width:100%;
-    height: 5vh;
-    display: flex;
-    justify-content: center;
-}
 
-footer nav .ul-footer{
-    list-style: none;
-    
-}
-
-footer p{
-    display: inline;
-    
-    padding-left: 15px;
-    color: white;
-}
 @media(max-width:200px) {
 
 }
