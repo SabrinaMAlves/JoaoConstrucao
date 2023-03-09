@@ -1,13 +1,16 @@
 @charset "utf-8";
 /*CSS Document*/
 
-
+:root {
+    --main-color: #343A40;
+    --secondary-color: rgb(227, 234, 240);
+}
 .main-section{
     display: flex;
     justify-content: center;
 }
 .container{
-    background-color: rgb(227, 234, 240);
+    background-color: var(--secondary-color);
     width: 30%;
     min-width: 70%;
     height: 160vh;
@@ -21,7 +24,7 @@
 }
 
 .card{
-    
+    margin-top: 15%;
     width: 80%;
     height: 30vh;
     border-radius: 50px 5px 30px 5px;
@@ -48,7 +51,7 @@
 
 }
 .promocoes>.mostruario{
-    background-color:#343A40;
+    background-color: var(--secondary-color);
     margin-top: 10%;
     width: 70%;
     height: 55%;
@@ -65,11 +68,14 @@
     width: 30%;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 .promocoes>.mostruario>.oferta>p,h3{
     color: white;
     font-size: xx-large;
+    
 }
 .promocoes>.mostruario>.produto>.fotoProduto{
-    width: 100%;
+    width: 70%;
+    border-radius: 20px 15px 20px 15px;
 }
